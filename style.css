@@ -1,0 +1,8 @@
+
+
+/* Hide on small screens (below 640px) */
+@media (max-width: 639px) {
+  #flower-lover-img2 {
+    display: none;
+  }
+}
