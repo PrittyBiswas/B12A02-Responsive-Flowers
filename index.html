@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font-Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Tailwind-CSS -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <title>Flower Market</title>
+
+</head>
+
+<body>
+
+    <header class="bg-petal font-poppins">
+        <!-- Navigation -->
+        <nav class="bg-white shadow-sm py-4 px-6 sticky top-0 z-50">
+            <div class="max-w-7xl mx-auto flex justify-between items-center">
+                <div class="text-2xl font-bold text-rose-600">
+                    <img src="assets/logo.png" class="mr-2 h-15">
+                </div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="#" class="font-medium text-black hover:text-[#E95A08]  transition">Home</a>
+                    <a href="#" class="font-medium  text-[#8987A1] hover:text-[#E95A08] transition">Shop</a>
+                    <a href="#" class="font-medium  text-[#8987A1] hover:text-[#E95A08] transition">About Us</a>
+                    <a href="#" class="font-medium flex items-center text-black hover:text-[#E95A08] ">
+                        <i class="fas fa-shopping-cart mr-2"></i> Cart ($56)
+                    </a>
+                </div>
+                <button class="md:hidden text-gray-600">
+                    <i class="fas fa-bars text-2xl"></i>
+                </button>
+            </div>
+        </nav>
+
+        <!-- Hero Section -->
+        <section class="hero-pattern py-16 md:py-24">
+            <div class="max-w-7xl mx-auto px-6 flex flex-col md:flex-row items-center">
+                <div class="md:w-1/2 md:mb-0">
+                    <h1 class="text-4xl md:text-5xl lg:text-6xl font-playfair font-bold text-gray-800 leading-tight">
+                        ALWAYS <span class="text-[#E95A08]"> FRESH </span> <span class="text-[#E95A08]">FLOWERS</span>
+                    </h1>
+                    <p class="mt-6 text-xl text-[#8987A1] max-w-lg">
+                        Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses
+                        to exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion.
+                    </p>
+                </div>
+                <div class="md:w-1/2 flex justify-center">
+                    <div class="relative">
+
+                        <div class="relative z-10">
+                            <img src="assets/hero-flower.png" alt="Beautiful flower arrangement"
+                                class="rounded-lg ml-40 w-120 h-70 object-cover bg-transparent">
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </header>
+
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <h2 class="text-3xl font-bold text-center mb-5">Our Services</h2>
+
+        <p class="text-center text-xl text-[#8987A1] mb-10">
+            Indulge your senses with the beauty and fragrance of our fresh flower shop. From <br
+                class="hidden sm:block" />
+            classic roses to exotic blooms, we offer a wide variety of fresh.
+        </p>
+
+        <!-- Responsive Grid -->
+        <div class="grid gap-8 grid-cols-1 sm:grid-cols-2 xl:grid-cols-4">
+
+            <!-- Card 1 -->
+            <div class="bg-white shadow-md overflow-hidden">
+                <img src="assets/sample-flower-image.png" alt="Service" class="w-full object-cover">
+
+                <div class="p-6 flex flex-col items-center text-center space-y-3">
+                    <p class="text-gray-600">Lily Blossom</p>
+                    <h3 class="text-xl font-semibold">20 USD</h3>
+                </div>
+
+                <button
+                    class="w-full px-4 py-2  text-white bg-[#E95A08] hover:bg-transparent hover:text-[#E95A08] border-4 border-[#E95A08] transition-all duration-300 hover:font-bold">
+                    Add to Cart
+                </button>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="bg-white shadow-md overflow-hidden">
+                <img src="assets/sample-flower-image.png" alt="Service" class="w-full object-cover">
+
+                <div class="p-6 flex flex-col items-center text-center space-y-3">
+                    <p class="text-gray-600">Lily Blossom</p>
+                    <h3 class="text-xl font-semibold">20 USD</h3>
+                </div>
+
+                <button
+                    class="w-full px-4 py-2  text-white bg-[#E95A08] hover:bg-transparent hover:text-[#E95A08] border-4 border-[#E95A08] transition-all duration-300 hover:font-bold">
+                    Add to Cart
+                </button>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="bg-white shadow-md overflow-hidden">
+                <img src="assets/sample-flower-image.png" alt="Service" class="w-full object-cover">
+
+                <div class="p-6 flex flex-col items-center text-center space-y-3">
+                    <p class="text-gray-600">Lily Blossom</p>
+                    <h3 class="text-xl font-semibold">20 USD</h3>
+                </div>
+
+                <button
+                    class="w-full px-4 py-2  text-white bg-[#E95A08] hover:bg-transparent hover:text-[#E95A08] border-4 border-[#E95A08] transition-all duration-300 hover:font-bold">
+                    Add to Cart
+                </button>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="bg-white shadow-md overflow-hidden">
+                <img src="assets/sample-flower-image.png" alt="Service" class="w-full object-cover">
+
+                <div class="p-6 flex flex-col items-center text-center space-y-3">
+                    <p class="text-gray-600">Lily Blossom</p>
+                    <h3 class="text-xl font-semibold">20 USD</h3>
+                </div>
+
+                <button
+                    class="w-full px-4 py-2  text-white bg-[#E95A08] hover:bg-transparent hover:text-[#E95A08] border-4 border-[#E95A08] transition-all duration-300 hover:font-bold">
+                    Add to Cart
+                </button>
+            </div>
+
+
+            <!-- Card 5 -->
+            <div class="bg-white shadow-md overflow-hidden">
+                <img src="assets/sample-flower-image.png" alt="Service" class="w-full object-cover">
+
+                <div class="p-6 flex flex-col items-center text-center space-y-3">
+                    <p class="text-gray-600">Lily Blossom</p>
+                    <h3 class="text-xl font-semibold">20 USD</h3>
+                </div>
+
+                <button
+                    class="w-full px-4 py-2  text-white bg-[#E95A08] hover:bg-transparent hover:text-[#E95A08] border-4 border-[#E95A08] transition-all duration-300 hover:font-bold">
+                    Add to Cart
+                </button>
+            </div>
+
+            <!-- Card 6 -->
+            <div class="bg-white shadow-md overflow-hidden">
+                <img src="assets/sample-flower-image.png" alt="Service" class="w-full object-cover">
+
+                <div class="p-6 flex flex-col items-center text-center space-y-3">
+                    <p class="text-gray-600">Lily Blossom</p>
+                    <h3 class="text-xl font-semibold">20 USD</h3>
+                </div>
+
+                <button
+                    class="w-full px-4 py-2  text-white bg-[#E95A08] hover:bg-transparent hover:text-[#E95A08] border-4 border-[#E95A08] transition-all duration-300 hover:font-bold">
+                    Add to Cart
+                </button>
+            </div>
+
+            <!-- Card 7 -->
+            <div class="bg-white shadow-md overflow-hidden">
+                <img src="assets/sample-flower-image.png" alt="Service" class="w-full object-cover">
+
+                <div class="p-6 flex flex-col items-center text-center space-y-3">
+                    <p class="text-gray-600">Lily Blossom</p>
+                    <h3 class="text-xl font-semibold">20 USD</h3>
+                </div>
+
+                <button
+                    class="w-full px-4 py-2  text-white bg-[#E95A08] hover:bg-transparent hover:text-[#E95A08] border-4 border-[#E95A08] transition-all duration-300 hover:font-bold">
+                    Add to Cart
+                </button>
+            </div>
+
+            <!-- Card 8 -->
+            <div class="bg-white shadow-md overflow-hidden">
+                <img src="assets/sample-flower-image.png" alt="Service" class="w-full object-cover">
+
+                <div class="p-6 flex flex-col items-center text-center space-y-3">
+                    <p class="text-gray-600">Lily Blossom</p>
+                    <h3 class="text-xl font-semibold">20 USD</h3>
+                </div>
+
+                <button
+                    class="w-full px-4 py-2  text-white bg-[#E95A08] hover:bg-transparent hover:text-[#E95A08] border-4 border-[#E95A08] transition-all duration-300 hover:font-bold">
+                    Add to Cart
+                </button>
+            </div>
+
+        </div>
+    </main>
+
+
+</body>
+
+</html>
